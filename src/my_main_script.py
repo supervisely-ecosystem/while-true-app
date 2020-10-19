@@ -7,7 +7,6 @@ def main():
     # Run application service
     my_app._ignore_stop_for_debug = True
     my_app.run()
-    my_app.wait_all()
 
 
 if __name__ == "__main__":
