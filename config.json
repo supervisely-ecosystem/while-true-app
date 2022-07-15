@@ -5,11 +5,14 @@
     "development"
   ],
   "description": "nocode app that ignores soft stop",
-  "docker_image": "supervisely/base-py-sdk:6",
+  "docker_image": "supervisely/base-py-sdk:6.35.0",
   "main_script": "src/my_main_script.py",
   "task_location": "application_sessions",
   "isolate": true,
-  "integrated_into": ["standalone", "image_annotation_tool"],
+  "integrated_into": [
+    "standalone",
+    "image_annotation_tool"
+  ],
   "icon": "https://img.icons8.com/fluent/96/000000/delete-slide.png",
   "icon_background": "#FFFFFF"
 }
